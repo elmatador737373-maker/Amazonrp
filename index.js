@@ -92,7 +92,7 @@ app.post('/report-screen', (req, res) => {
 
 // Pannello Admin
 app.get('/admin', (req, res) => {
-    const MIO_ID_DISCORD = "IL_TUO_ID_DISCORD_QUI"; // <--- METTI IL TUO ID QUI!
+    const MIO_ID_DISCORD = "1191824316376043580"; // <--- METTI IL TUO ID QUI!
     
     if (req.isAuthenticated() && req.user.id === MIO_ID_DISCORD) {
         let rows = screenLogs.map(l => `
