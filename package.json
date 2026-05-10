@@ -1,17 +1,17 @@
 {
-  "name": "amazon-rp-supabase",
+  "name": "aizen-discord-auth",
   "version": "1.0.0",
-  "main": "server.js",
-  "scripts": { "start": "node server.js" },
+  "description": "Sito web con Discord OAuth2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "@supabase/supabase-js": "^2.38.0",
-    "axios": "^1.6.0",
-    "dotenv": "^16.3.1",
-    "ejs": "^3.1.9",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
     "passport": "^0.6.0",
     "passport-discord": "^0.1.4"
   }
 }
+
 
